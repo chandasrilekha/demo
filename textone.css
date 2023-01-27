@@ -1,0 +1,58 @@
+/* 
+.noborder{
+    border-style:none;
+
+}
+.adotted{
+   border-style:dotted;
+   border-width: 5px;
+   border-color:blueviolet;
+}
+.dashed{
+  
+   border-radius: 50px  70px 89px 50px ;
+    border: 1px dashed red;
+}
+.solid{
+    border-style: solid;
+}
+.double{
+    border-style: double;
+}
+#insert{
+    border-style: inset;
+}
+#outset{
+    border-style:outset;
+}
+#hidden{
+    border-style:hidden;
+} */
+
+
+.left{
+    border-bottom-right-radius: 250px;
+    border-style: solid;
+    border-width: 30px;
+    border-color: blue;
+}
+
+.leftone{
+    border-bottom-left-radius: 250px;
+    border-collapse: collapse;
+        border-style: solid;
+    border-width: 40px;
+    border-color: blue;
+}
+.lefttwo{
+    border-top-right-radius: 250px;
+    border-style: solid;
+    border-width: 40px;
+    border-color: blue;
+}
+.lefts{
+    border-top-left-radius: 250px;
+    border-style: solid;
+    border-width: 40px;
+    border-color: blue;
+}

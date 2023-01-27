@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+forms
+        </title>
+    </head>
+    <body>
+<form>
+    <fieldset>
+
+   <legend> Registation form</legend>
+    <!-- Enter your name:
+    <input type="text" name="username"/>
+    lastname:
+    <input type="text" name="lastname"/>
+    address:
+    <textarea rows="5" cols="20"></textarea> -->
+    <label for="username">enter your username:</label>
+    <input type="text" name="username" id="username" placeholder="username" required/>
+
+    <br>
+    <label for="password"> enter your password:</label>
+    <input type="password" name="password" id="password" placeholder="password" readonly/>
+
+    <br>
+    <br>
+    <label for="email">enter your email:</label>
+    <input type="email" name="email" id="email"  disabled placeholder="email"/>
+
+    <br>
+    <label for="gender">Gender:</label>
+    <input type="radio" id="gender" name="gender" value="male"/>Male
+    <input type="radio" id="gender" name="gender" value="female"/>FeMale
+
+    <br>
+    <br>
+
+    <label for="types">types</label>
+    <input type="checkbox" id="types" name="types" value="html1"/>html
+    <br>
+    <label for="types">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;html1</label><br>
+    <input type="checkbox" id="types" name="types" value="html1"/>
+    <label for="types">html2</label><br>
+    <input type="checkbox" id="types" name="types" value="html1"/>html2<br>
+
+    <input type="checkbox" id="types" name="types" value="html1"/>html3<br>
+    <input type="checkbox" id="types" name="types" value="html1"/>html4
+<br>
+
+    <input type="submit" value="submit" multiple/>
+    <br>
+    <input type="reset" value="reset"/>
+
+
+    <label for="file">upload file</label>
+    <input type="file" name="uploadfile"/>
+
+
+    <label>image</label>
+    <input type="image" alt="name" src="https://media.istockphoto.com/id/518256134/photo/charminar.jpg?s=612x612&w=0&k=20&c=El2-xCRHhkaDHJwz4cUzNmJ8E_FVAqwutwQIvn4vReA="  height="100px" width="100px"/>
+
+
+    <label>color</label>
+    <input type="color" name="upclick" value="red">upclick
+
+
+
+    <label>Date</label>
+    <input type="date" name="startdate">startdate
+    <input type="date" name="startdate">enddate
+
+    <!-- <label>hello</label> -->
+
+
+    <label>date-timelocal</label>
+    <input type="datetime-local" name="meetingdate"/>
+
+    <label>month
+</label>
+    <input type="month" name="month"/>
+
+    <label>cell number</label>
+    <input type="number" name="numbers" min="25" max="80"/>
+
+
+    <label>url</label>
+    <input type="url" name="url"/>
+
+
+
+    <label>week</label>
+    <input type="week" name="week"/>
+
+    <label>tel</label>
+    <input type="tel" name="telephonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+</fieldset>
+
+    
+</form>
+    </body>
+</html>
